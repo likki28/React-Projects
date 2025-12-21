@@ -1,15 +1,18 @@
 
-import './App.css'
+
 import Accordian from './components/Accordian'
+import LightDarkMode from './components/BackgroundColor/BackgroundColor'
 
 function App() {
   
 
   return (
     <>
-    <Accordian/>
-      
+    {/* <Accordian/> */}
+     <LightDarkMode/>
     </>
+      
+   
   )
 }
 
