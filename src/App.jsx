@@ -2,6 +2,7 @@
 
 import Accordian from './components/Accordian'
 import LightDarkMode from './components/BackgroundColor/BackgroundColor'
+import Pagination from './components/Pagination/index.jsx'
 
 function App() {
   
@@ -9,7 +10,8 @@ function App() {
   return (
     <>
     {/* <Accordian/> */}
-     <LightDarkMode/>
+     {/* <LightDarkMode/> */}
+     <Pagination/>
     </>
       
    
