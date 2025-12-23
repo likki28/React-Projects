@@ -1,0 +1,4 @@
+.hover-container:hover {
+  background-color: darkblue; /* This style is applied on hover */
+  color: white;
+}
