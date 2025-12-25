@@ -1,4 +1,7 @@
-.hover-container:hover {
-  background-color: darkblue; /* This style is applied on hover */
-  color: white;
+.active {
+  color: #fff700;
+}
+
+.inactive {
+  color: #000000;
 }
