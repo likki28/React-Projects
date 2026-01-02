@@ -1,9 +1,12 @@
-import { useCallback, useState } from "react"
+import { useCallback, useState, useRef } from "react"
 
 export default function PasswordGenerator(){
 
     const [length,setLength]=useState(8);
     const [password,setPassword]=useState("")
+
+    const ref=useRef(0);
+    console.log(ref)
     
 
     const handleChange=useCallback(()=>{
@@ -30,10 +33,12 @@ export default function PasswordGenerator(){
     return(
         <>
 
-        <div>
-            <input type="text" placeholder="generate password" value={password} readOnly/>
+        <div > 
+            <input  className="border border-black rounded-md" type="text" placeholder="generate password" value={password} readOnly/>
+            <div></div>
             <input type="range" min={8} max={16} value={length}  onChange={(e)=>setLength(Number(e.target.value))}/>
-            <button onClick={handleChange}>Generate password</button>
+            <div></div>
+            <button className=" border border-black bg-pink-500" onClick={handleChange}>Generate password</button>
             
 
         </div>

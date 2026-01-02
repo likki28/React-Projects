@@ -2,6 +2,7 @@
 
 import Accordian from './components/Accordian'
 import LightDarkMode from './components/BackgroundColor/BackgroundColor'
+import CurrencyConversion from './components/CurrencySwap/index.jsx'
 import Pagination from './components/Pagination/index.jsx'
 import PasswordGenerator from './components/PasswordGenerator/index.jsx'
 import RandomColor from './components/RandomColor/index.jsx'
@@ -20,7 +21,9 @@ function App() {
      {/* <Star/> */}
      {/* <RandomColor/> */}
      {/* <TicTacToe/> */}
-     <PasswordGenerator/>
+     {/* <PasswordGenerator/> */}
+
+     <CurrencyConversion/>
     </>   
    
   )
